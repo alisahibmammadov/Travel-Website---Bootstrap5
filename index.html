@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Səyahət.az</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap link -->
+    <!-- FontAwesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FontAwesome Link -->
+    <!-- Google Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Font link -->
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo"
+          ><span>S</span>əyahət</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto my-3">
+            <li class="nav-item">
+              <a class="nav-link active px-2" href="#">Əsas səhifə</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  px-2" href="#book">Rezervasiya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#packages">Paketlər</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#services">Xidmətlər</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#gallery">Qalereya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#about">Haqqında</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="text"
+              placeholder="Axtarış"
+            />
+            <button class="btn btn-primary" type="button">Axtar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Home Section start -->
+    <div class="home">
+      <div class="content">
+        <h5>Qarabağ'a xoş gəldiniz</h5>
+        <h1>Ziyarət edin <span class="changecontent"></span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, vitae.
+        </p>
+        <a href="#book">Rezervasiya</a>
+      </div>
+    </div>
+    <!-- Home Section end -->
+
+    <!-- Section Book Start -->
+    <div class="book" id="book">
+      <div class="container">
+        <div class="main-text">
+          <h1><span>R</span>ezervasiya</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/book-img.png"  />
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <form action="#">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Haraya"
+                required
+              />
+              <br />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Müddər"
+                required
+              />
+              <br />
+              <input type="date" class="form-control" title="Gediş" required />
+              <br />
+              <input type="date" class="form-control" title="Gəliş" required />
+              <br />
+              <textarea
+                class="form-control"
+                rows="5"
+                name="text"
+                placeholder="Adınızı və Detallarınızı daxil edin"
+              ></textarea>
+              <input
+                type="submit"
+                value="İndi sifariş et"
+                class="submit"
+                required
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section Book End -->
+
+    <!-- Section Packages start -->
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>P</span>aketlər</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/xcvnd.jpg" alt="" />
+              <div class="card-body">
+                <h3>Xocavənd</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                  ipsam.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6 class="py-2">Qiymət: <strong>₼500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/xcl.jpg" alt="" />
+              <div class="card-body">
+                <h3>Xocalı</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                  ipsam.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6 class="py-2">Qiymət: <strong>₼500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/ss.png" alt="" />
+              <div class="card-body">
+                <h3>Şuşa</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                  ipsam.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6 class="py-2">Qiymət: <strong>₼500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/lcn.png" alt="" />
+              <div class="card-body">
+                <h3>Laçın</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                  ipsam.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6 class="py-2">Qiymət: <strong>₼500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/klbcr.png" alt="" />
+              <div class="card-body">
+                <h3>Kəlbəcər</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                  ipsam.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6 class="py-2">Qiymət: <strong>₼500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/gdm.png" alt="" />
+              <div class="card-body">
+                <h3>Ağdam</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                  ipsam.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6 class="py-2">Qiymət: <strong>₼500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/cbryl.png" alt="" />
+              <div class="card-body">
+                <h3>Cəbrayıl</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                  ipsam.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6 class="py-2">Qiymət: <strong>₼500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/qbdl.png" alt="" />
+              <div class="card-body">
+                <h3>Qubadlı</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                  ipsam.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6 class="py-2">Qiymət: <strong>₼500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/fzl.png" alt="" />
+              <div class="card-body">
+                <h3>Füzuli</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                  ipsam.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+                <h6 class="py-2">Qiymət: <strong>₼500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Packages end -->
+
+    <!-- Section Services start -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>X</span>idmətlər</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-hotel"></i>
+              <div class="card-body">
+                <h3>Sərfəli Otel</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Recusandae, labore!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-utensils"></i>
+              <div class="card-body">
+                <h3>Qida və içkilər</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Recusandae, labore!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-bullhorn"></i>
+              <div class="card-body">
+                <h3>Təhlükəsizlik Bələdçisi</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Recusandae, labore!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-globe-asia"></i>
+              <div class="card-body">
+                <h3>Qarabağ ətrafı</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Recusandae, labore!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-plane"></i>
+              <div class="card-body">
+                <h3>Ən Sürətli Səyahət</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Recusandae, labore!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-hiking"></i>
+              <div class="card-body">
+                <h3>Sərgüzəştlər</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Recusandae, labore!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Services end -->
+
+    <!-- Section gallery Start -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>Q</span>alereya</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/baki.png" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/lenkeran.png" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/quba.jpg" alt="" height="230px" />
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/naxcivan.jpg" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/gence.png" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/qebele.jpg" alt="" height="230px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section gallery End -->
+
+    <!-- About Start -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>Bizim </span>Haqqımızda</h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/about-img.png" alt="" />
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>Səyahət Agentliyi necə işləyir</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, temporibus impedit, magnam dolorum tempora excepturi
+              hic harum corrupti quasi provident officiis nulla cumque
+              perferendis, suscipit eum porro quod dicta eveniet. Earum beatae
+              modi quas magni quos. Dicta, modi, debitis illo, voluptates
+              accusamus suscipit excepturi tenetur explicabo voluptatibus rem
+              non molestiae.
+            </p>
+            <button id="about-btn">Daha çox oxu...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Footer Start -->
+    <footer id="footer">
+      <h1><span>S</span>əyahət</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+        molestias modi reprehenderit. Magnam, ipsum dolorem.
+      </p>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Scrool Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa-solid fa-chevron-up"></i></button>
+    <!-- Scrool Button -->
+    <!-- Scrool Button -->
+    
+    <!-- Scrool Button -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let mybutton = document.getElementById("myBtn");
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+
+
+      
+    </script>
+  </body>
+</html>
